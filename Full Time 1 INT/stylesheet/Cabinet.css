@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* menu du choix de carte pour la page Cabinet */
+.accordion {
+    width: 880px;
+    height: 480px;
+    overflow: hidden;
+    margin: 100px auto;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+.accordion ul {
+    width: 1200px;
+}
+.accordion li {
+    position: relative;
+    display: block;
+    width: 160px;
+    float: left;
+    border-left: 1px solid #888;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+.accordion ul:hover li {
+    width: 40px;
+}
+.accordion ul li:hover {
+    width: 640px;
+}
+.accordion li img {
+    display: block;
+}
+/* personnalisation des titres de carte */
+.image_title {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0; bottom: 0;
+    width: 200px;
+}
+.image_title a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
+}
+body {
+    background: #F3F3F3;
+}
+#titreAccordion{
+    text-align: center;
+    color: #437070;
+    font-style: oblique;
+    padding-top: 10px;
+}
+#premierPlan {
+    height:80%;
+    padding-left: 10%;
+}
+.container {
+    width: 100%;
+}
+.planCabinetType1 {
+    max-width: 100%;
+    box-shadow: 10px 10px 10px 5px #888888;
+}
+.planCabinetType2 {
+    max-width: 100%;
+    box-shadow: -10px 10px 10px 5px #888888;
+}
+/* éléments qui permettent la personnalisation des petites lignes horizontales de la page */
+.lignesCabinet {
+    width:75%;
+    color:firebrick;
+    background-color:#437070;
+    height:3px;
+    margin-left: auto;
+    margin-right: auto;
+}

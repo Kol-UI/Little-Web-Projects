@@ -1,0 +1,34 @@
+
+/* lignes concernants la barre de navigation, présente sur toutes les pages du site */
+
+
+.navbar.navbar-inverse {
+    background-color: #F3F3F3F3;
+    border-top: 1px inset rgba(0, 0, 0, 1);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    font-size: 150%;
+    height: 90px;
+    border-right: 1px solid black;
+}
+.navbar .navbar-nav > li > a {
+    color: #437070;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+    text-shadow: 0 -1px black, 0 1px rgba(255, 255, 255, 0.25);
+    line-height: 18px;
+    height: 90px;
+}
+.navbar .navbar-nav > li.active {
+    height: 90px;
+}
+.navbar .navbar-nav > ul > a{
+    padding-top: 50%;
+}
+.navbar-inverse .navbar-nav > a:active {
+    background-color: blue;
+}
+#cabinetNomNavbar {
+    padding-top:28px;
+    padding-left:150px;
+    font-size:120%;
+}

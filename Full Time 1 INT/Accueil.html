@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet/Navbar.css">
+    <link rel="stylesheet" href="stylesheet/Accueil.css">
+    <link rel="stylesheet" href="stylesheet/Footer.css">
+    <title>CAP Cabinet Azzi Perrin - Fiducière & gestion</title>
+</head>
+<body>
+<!-- Barre de navigation -->
+<div class="container">
+    <div class="container" style="padding-top:91px;">
+    <div class="row">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="collapse navbar-collapse navbar-ex1-collapse"> <!-- les differents liens des pages sont contenus dans une liste -->
+                <ul class="nav navbar-nav js-nav-add-active-class">
+                    <li class="active"><a href="Accueil.html" style="padding-top:35px;" >Accueil</a></li>
+                    <li><a href="Cabinet.html" style="padding-top:35px;" >Le cabinet</a></li>
+                    <li><a href="Approche.html" style="padding-top:35px;" >Notre approche</a></li>
+                    <li><a href="Missions.html" style="padding-top:35px;" >Missions</a></li>
+                    <li><p id="cabinetNomNavbar">Cabinet Azzi Perrin - Fiducière & Gestion</p></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="row">
+        <div class="carousel slide"  data-ride="carousel" id="main-carousel"> <!-- debut du diaporama de la page d'accueil -->
+            <ol class="carousel-indicators">
+                <li data-target="#main-carousel" data-slide-to="0" class="active"></li> <!-- image sur laquelle commence le diapo -->
+                <li data-target="#main-carousel" data-slide-to="1"></li>    <!-- contenus dans une liste -->
+                <li data-target="#main-carousel" data-slide-to="2"></li>
+                <li data-target="#main-carousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="http://placehold.it/1920x1000"/>  <!-- Premiere image du diaporama-->
+                </div>
+                <div class="item">
+                    <img src="http://placehold.it/1920x1000"/>  <!-- Deuxieme image du diaporama-->
+                </div>
+                <div class="item">
+                    <img src="http://placehold.it/1920x1000"/>  <!-- Troisieme image du diaporama-->
+                </div>
+                <div class="item">
+                    <img src="http://placehold.it/1920x1000"/>  <!-- Quatrieme image du diaporama-->
+                </div>
+            </div>
+            <a class="left carousel-control" href="#main-carousel" role="button" data-slide="prev"> <!-- Bouton gauche diaporama -->
+                <span class="fa fa-arrow-left"></span>
+            </a>
+            <a class="right carousel-control"  href="#main-carousel" role="button" data-slide="next">   <!-- Bouton droit diaporama -->
+                <span class="fa fa-arrow-right"></span>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="Nom">
+            <h1>Cabinet Azzi Perrin</h1>    <!-- Nom entreprise sur le diaporama -->
+            <h2>Fiducière & Gestion</h2>
+        </div>
+    </div>
+    <div class="row" id="premiereLigne" style="padding-bottom:10px;">   <!-- Deux premieres parties de texte -->
+            <div class="col-sm-6" style="background-color:lightgray;"><h4 class="text-center">Titre 1</h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum... <a href="Cabinet.html">Lire la suite.</a></div>
+            <div class="col-sm-6" style="background-color:lightgray;"><h4 class="text-center">Titre 2</h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum... <a href="Approche.html">Lire la suite.</a></div>
+    </div>
+    <div class="row" id="deuxiemeLigne" style="padding-bottom:10px;">   <!-- Deux dernieres parties de texte -->
+            <div class="col-sm-6" style="background-color:lightgray;"><h4 class="text-center">Titre 3</h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum... <a href="Missions.html">Lire la suite.</a></div>
+            <div class="col-sm-6" style="background-color:lightgray;"><h4 class="text-center">Titre 4</h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum... <a href="Missions.html">Lire la suite.</a></div>
+    </div>
+        <!-- attention vers où se dirige les liens "Lire la suite" -->
+
+        <h1 id="titreArticles">Présentation du Cabinet Azzi Perrin en 6 points essentiels :</h1> <!-- Tableau du bas de la page -->
+    <div class="row grid-divider" style="background-color:#DDD;">
+        <div class="col-sm-4">
+            <div class="col-padding">
+                <h3>Prise de contact</h3> <!-- Titre avec le texte en dessous -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="col-padding">
+                <h3>Écoute</h3> <!-- Titre avec le texte en dessous -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="col-padding">
+                <h3>Travail d'équipe</h3> <!-- Titre avec le texte en dessous -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab veniam aperiam numquam cupiditate maiores repudiandae ea dicta, sunt rerum corporis. Ab veniam aperiam numquam cupiditate maiores repudiandae ea dicta, sunt rerum corporis. Ab veniam aperiam numquam cupiditate maiores repudiandae ea dicta.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row grid-divider" style="background-color:#DDD;">
+        <div class="col-sm-4">
+            <div class="col-padding">
+                <h3>Efficacité</h3> <!-- Titre avec le texte en dessous -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="col-padding">
+                <h3>Méthode de travail</h3> <!-- Titre avec le texte en dessous -->
+                <p>consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="col-padding">
+                <h3>Financement</h3> <!-- Titre avec le texte en dessous -->
+                <p>Ab veniam aperiam numquam cupiditate maiores repudiandae ea dicta, sunt rerum corporis. Ab veniam aperiam numquam cupiditate maiores repudiandae ea dicta.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<footer> <!-- le footer du site -->
+    <div class="footerHeader"></div>
+        <div class="col-md-4">
+            <h3>A propos de nous</h3> <!-- partie de gauche -->
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum...
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h3>Notre localisation</h3> <!-- partie centrale -->
+            <div class="carte"> <!-- la carte -->
+                <div id="googleMap" style="width:400px;height:200px;"></div> <!-- taille de la carte -->
+                <script>
+                    function cabinetCoordonneesFooter() {
+                        var coordonnees= {lat:48.837690, lng:2.391544};
+                        var pointCentre= {
+                            center:new google.maps.LatLng(48.837690, 2.391544),
+                            zoom:12
+                        };
+                        var map=new google.maps.Map(document.getElementById("googleMap"),pointCentre);
+                        var marker = new google.maps.Marker({
+                            position: coordonnees,
+                            map: map
+                        })
+                    }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhcPRD4_OjDZQHXcggxBXjel0ge3rja7o&callback=cabinetCoordonneesFooter"></script>
+            </div> <!-- script qui permet d'afficher la carte -->
+        </div>
+        <div class="col-md-4" >
+            <h3>Pour nous contacter</h3> <!-- partie de droite -->
+            <ul>
+                <li>Par téléphone : 02********</li>
+                <li>Par E-mail : exemple@*****.com</li>
+                <li>Par Fax : *** *** ***</li>
+            </ul>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+        </div>
+</footer>
+</body>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>

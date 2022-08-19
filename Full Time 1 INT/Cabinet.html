@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet/Navbar.css">
+    <link rel="stylesheet" href="stylesheet/Footer.css">
+    <link rel="stylesheet" href="stylesheet/Cabinet.css">
+    <title>CAP Cabinet Azzi Perrin - Fiducière & Gestion</title>
+</head>
+<body>
+<div class="container">
+    <div class="container" style="padding-top:91px;">
+        <div class="row">
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="collapse navbar-collapse navbar-ex1-collapse"> <!-- les differents liens des pages sont contenus dans une liste -->
+                    <ul class="nav navbar-nav js-nav-add-active-class">
+                        <li><a href="Accueil.html" style="padding-top:35px;" >Accueil</a></li>
+                        <li class="active"><a href="Cabinet.html" style="padding-top:35px;" >Le cabinet</a></li>
+                        <li><a href="Approche.html" style="padding-top:35px;" >Notre approche</a></li>
+                        <li><a href="Missions.html" style="padding-top:35px;" >Missions</a></li>
+                        <li><p id="cabinetNomNavbar">Cabinet Azzi Perrin - Fiducière & Gestion</p></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <h1 id="titreAccordion">Comment se rendre dans notre cabinet ?</h1> <!-- debut du menu pour choisir une carte -->
+        <div class="accordion">
+            <ul>
+                <li> <!-- le menu est contenu dans une liste -->
+                    <div class="image_title">
+                        <a href="#ancreBus">Plan d'accès via les bus</a> <!-- titre de la premiere image, avec ancre pour aller vers l'image -->
+                    </div>
+                    <a href="#ancreBus"> <!-- ancre vers l'image -->
+                        <img src="images/Plan-acces-bus.png"/>
+                    </a>
+                </li>
+                <li>
+                    <div class="image_title">
+                        <a href="#ancreSatellite">Plan d'accès en vue satellite</a> <!-- titre de la deuxieme image, avec ancre pour aller vers l'image -->
+                    </div>
+                    <a href="#ancreSatellite"> <!-- ancre vers l'image -->
+                        <img src="images/Plan-acces-Satellite.png"/>
+                    </a>
+                </li>
+                <li>
+                    <div class="image_title">
+                        <a href="#ancreAPied">Plan d'accès à pied</a> <!-- titre de la troisieme image, avec ancre pour aller vers l'image -->
+                    </div>
+                    <a href="#ancreAPied"> <!-- ancre vers l'image -->
+                        <img src="images/Plan-acces-cabinet.png"/>
+                    </a>
+                </li>
+                <li>
+                    <div class="image_title">
+                        <a href="#ancreMetro">Plan d'accès via le métro</a> <!-- titre de la quatrieme image, avec ancre pour aller vers l'image -->
+                    </div>
+                    <a href="#ancreMetro"> <!-- ancre vers l'image -->
+                        <img src="images/Plan-acces-Metro.png"/>
+                    </a>
+                </li>
+            </ul>
+        </div> <!-- fin du menu pour le choix de carte -->
+    </div>
+    <div class="container" id="miseEnForme">
+        <div id="ancreSatellite"> <!-- l'endroit vers lequel l'ancre numéro 1 est dirigée -->
+        <div class="row" style="padding-top: 25px;">
+            <hr class="lignesCabinet">
+            <div class="col-sm-7">
+                <img src="images/Plan-acces-Satellite.png" class="planCabinetType1">
+            </div>
+            <div class="col-sm-5">
+                <p style="text-align:center"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+        </div>
+        <div id="ancreAPied"> <!-- l'endroit vers lequel l'ancre numéro 2 est dirigée -->
+        <div class="row" style="padding-top: 25px;">
+            <hr style="width:75%; color:firebrick; background-color:#437070; height:3px; margin-left: auto; margin-right: auto;"/>
+            <div class="col-sm-5">
+                <p style="text-align:center"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>  <!-- texte qui présente la carte -->
+            <div class="col-sm-7">
+                <img src="images/Plan-acces-cabinet.png" class="planCabinetType2">
+            </div>
+        </div>
+        </div>
+        <div id="ancreMetro"> <!-- l'endroit vers lequel l'ancre numéro 3 est dirigée -->
+        <div class="row" style="padding-top: 25px;">
+            <hr style="width:75%; color:firebrick; background-color:#437070; height:3px; margin-left: auto; margin-right: auto;"/>
+            <div class="col-sm-7">
+                <img src="images/Plan-acces-Metro.png" class="planCabinetType1">
+            </div>
+            <div class="col-sm-5">
+                <p style="text-align:center"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>  <!-- texte qui présente la carte -->
+        </div>
+        </div>
+        <div id="ancreBus"> <!-- l'endroit vers lequel l'ancre numéro 4 est dirigée -->
+        <div class="row" style="padding-top: 25px; padding-bottom: 20px;">
+            <hr style="width:75%; color:firebrick; background-color:#437070; height:3px; margin-left: auto; margin-right: auto;"/>
+            <div class="col-sm-5">
+                <p style="text-align:center"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>  <!-- texte qui présente la carte -->
+            <div class="col-sm-7">
+                <img src="images/Plan-acces-bus.png" class="planCabinetType2">
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<footer> <!-- debut footer -->
+    <div class="footerHeader" ></div>
+    <div class="col-md-4" >
+        <h3>A propos de nous</h3> <!-- partie de gauche du footer -->
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h3>Notre localisation</h3> <!-- partie du milieur du footer -->
+        <div class="carte">
+            <div id="googleMap" style="width:400px;height:200px;"></div> <!-- script de la carte -->
+            <script>
+                function cabinetCoordonneesFooter() {
+                    var coordonnees= {lat:48.837690, lng:2.391544};
+                    var pointCentre= {
+                        center:new google.maps.LatLng(48.837690, 2.391544),
+                        zoom:12
+                    };
+                    var map=new google.maps.Map(document.getElementById("googleMap"),pointCentre);
+                    var marker = new google.maps.Marker({
+                        position: coordonnees,
+                        map: map
+                    })
+                }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhcPRD4_OjDZQHXcggxBXjel0ge3rja7o&callback=cabinetCoordonneesFooter"></script>
+        </div>
+    </div>
+    <div class="col-md-4" >
+        <h3>Pour nous contacter</h3> <!-- partie de droite du footer -->
+        <ul>
+            <li>Par téléphone : 02********</li>
+            <li>Par E-mail : exemple@*****.com</li>
+            <li>Par Fax : *** *** ***</li>
+        </ul>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+        </p>
+    </div>
+</footer>
+
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
