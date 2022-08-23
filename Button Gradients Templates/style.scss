@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200');
+html {
+  height: 100%;
+}
+
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  background: #4ee44e;
+  border-radius: 25px;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+body {
+  min-height: 100%;
+  display: center;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.container > * {
+  display: block;
+  margin: 20px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-gradients {
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  background-position: 100% 0;
+  background-size: 200% 200%;
+  color: white;
+  border-radius: 50px;
+  padding: 12px 48px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  text-decoration: none;
+  box-shadow: 0 8px 8px 0 rgba(0, 40, 120, .35);
+  transition: all 0.5s ease;
+  margin: 10px;
+}
+
+a:hover {
+  box-shadow: 0 0px 0px 0 rgba(0, 40, 120, 0);
+  background-position: 0 0;
+}
+
+.gradientAli {
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #ff4b1f 0%, #ff4b1f 55%, #1fddff 90%);
+}
+
+.gradientPurpleWhite {
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #BA5370 0%, #BA5370 55%, #F4E2D8 90%);
+}
+
+.gradientColorsOfSky {
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #E0EAFC 0%, #E0EAFC 55%, #CFDEF3 90%);
+}
+
+.gradientDecent {
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #4CA1AF 0%, #4CA1AF 55%, #C4E0E5 90%);
+}
+
+.gradientDarkSkies {
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #4B79A1 0%, #4B79A1 55%, #283E51 90%);
+}
+
+.gradientSuzi {
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #834d9b 0%, #834d9b 55%, #d04ed6 90%);
+}
+
+.gradientSuzi2 {
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #d04ed6 0%, #d04ed6 55%, #834d9b 90%);
+}
+
+.gradientSuperman {
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #0099F7 0%, #0099F7 55%, #834d9b 90%);
+}
+
+.gradientSuperman2 {
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #834d9b 0%, #834d9b 55%, #0099F7 90%);
+}
+
+.gradientNighthawk {
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #2980b9 0%, #2980b9 55%, #2c3e50 90%);
+}
+
+.gradientForest {
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #5A3F37 0%, #5A3F37 55%, #2C7744 90%);
+}
+
+.gradientForest2 {
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #2C7744 0%, #2C7744 55%, #5A3F37 90%);
+}
+
+.gradientMiamiDolphins {
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #4DA0B0 0%, #4DA0B0 55%, #D39D38 90%);
+}
+
+.gradientMiamiDolphins2 {
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #D39D38 0%, #D39D38 55%, #4DA0B0 90%);
+}
+
+.gradientMinnesotaVikings{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #5614B0 0%, #5614B0 55%, #DBD65C 90%);
+}
+
+$Christmas1: #AA3A38;
+$Christmas2: #2F7336;
+
+.gradientChristmas{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $Christmas1 0%, $Christmas1 55%, $Christmas2 90%);
+}
+
+$Pizelex1: #F29492;
+$Pizelex2: #114357;
+
+.gradientPizelex{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $Pizelex1 0%, $Pizelex1 55%, $Pizelex2 90%);
+}
+
+$Haikus1: #fd746c;
+$Haikus2: #ff9068;
+.gradientHaikus{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $Haikus1 0%, $Haikus1 55%, $Haikus2 90%);
+}
+
+$PaleWood1: #eacda3;
+$PaleWood2: #d6ae7b;
+.gradientPaleWood{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $PaleWood1 0%, $PaleWood1 55%, $PaleWood2 90%);
+}
+
+$Purplin1: #6a3093;
+$Purplin2: #a044ff;
+.gradientPurplin{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $Purplin1 0%, $Purplin1 55%, $Purplin2 90%);
+}
+.gradientPurplin2{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $Purplin2 0%, $Purplin2 55%, $Purplin1 90%);
+}
+
+$Inbox1: #457fca;
+$Inbox2: #5691c8;
+.gradientInbox{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $Inbox1 0%, $Inbox1 55%, $Inbox2 90%);
+}
+
+$Blush1: #B24592;
+$Blush2: #F15F79;
+.gradientBlush{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $Blush1 0%, $Blush1 55%, $Blush2 90%);
+}
+.gradientBlush2{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $Blush2 0%, $Blush2 55%, $Blush1 90%);
+}
+
+$BackToTheFutur1: #C02425;
+$BackToTheFutur2: #F0CB35;
+.gradientBackToTheFutur{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $BackToTheFutur1 0%, $BackToTheFutur1 55%, $BackToTheFutur2 90%);
+}
+.gradientBackToTheFutur2{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $BackToTheFutur2 0%, $BackToTheFutur2 55%, $BackToTheFutur1 90%);
+}
+
+$Poncho1: #B24592;
+$Poncho2: #F15F79;
+.gradientPoncho{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $Poncho1 0%, $Poncho1 55%, $Poncho2 90%);
+}
+
+$GandB1: #c2e59c;
+$GandB2: #64b3f4;
+.gradientGandB{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $GandB1 0%, $GandB1 55%, $GandB2 90%);
+}
+.gradientGandB2{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $GandB2 0%, $GandB2 55%, $GandB1 90%);
+}
+
+$LightOrange1: #FFB75E;
+$LightOrange2: #ED8F03;
+.gradientLightOrange{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $LightOrange1 0%, $LightOrange1 55%, $LightOrange2 90%);
+}
+
+$Netflix1: #8E0E00;
+$Netflix2: #1F1C18;
+.gradientNetflix{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $Netflix1 0%, $Netflix1 55%, $Netflix2 90%);
+}
+
+$LittleLeaf1: #76b852;
+$LittleLeaf2: #8DC26F;
+.gradientLittleLeaf{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $LittleLeaf1 0%, $LittleLeaf1 55%, $LittleLeaf2 90%);
+}
+
+$DeepPurple1: #673AB7;
+$DeepPurple2: #512DA8;
+.gradientDeepPurple{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $DeepPurple1 0%, $DeepPurple1 55%, $DeepPurple2 90%);
+}
+
+$BackToEarth1: #00C9FF;
+$BackToEarth2: #92FE9D;
+.gradientBackToEarth{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $BackToEarth1 0%, $BackToEarth1 55%, $BackToEarth2 90%);
+}
+
+$MasterCard1: #f46b45;
+$MasterCard2: #eea849;
+.gradientMasterCard{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $MasterCard1 0%, $MasterCard1 55%, $MasterCard2 90%);
+}
+
+$ClearSky1: #005C97;
+$ClearSky2: #363795;
+.gradientClearSky{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $ClearSky1 0%, $ClearSky1 55%, $ClearSky2 90%);
+}
+
+$Passion1: #e53935;
+$Passion2: #e35d5b;
+.gradientPassion{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $Passion1 0%, $Passion1 55%, $Passion2 90%);
+}
+
+$Lizard1: #304352;
+$Lizard2: #d7d2cc;
+.gradientLizard{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $Lizard1 0%, $Lizard1 55%, $Lizard2 90%);
+}
+
+$Timber1: #fc00ff;
+$Timber2: #00dbde;
+.gradientTimber1{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $Timber1 0%, $Timber1 55%, $Timber2 90%);
+}
+.gradientTimber2{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $Timber2 0%, $Timber2 55%, $Timber1 90%);
+}
+
+$NightDay1: #2c3e50;
+$NightDay2: #3498db;
+.gradientNightDay1{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $NightDay1 0%, $NightDay1 55%, $NightDay2 90%);
+}
+.gradientNightDay2{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $NightDay2 0%, $NightDay2 55%, $NightDay1 90%);
+}
+
+$Sage1: #CCCCB2;
+$Sage2: #757519;
+.gradientSage{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $Sage1 0%, $Sage1 55%, $Sage2 90%);
+}
