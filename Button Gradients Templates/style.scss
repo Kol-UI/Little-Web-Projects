@@ -3,6 +3,9 @@ html {
   height: 100%;
 }
 
+*{
+  font-family: 'Fjalla One', sans-serif
+}
 
 #snackbar {
   visibility: hidden;
@@ -125,6 +128,11 @@ a:hover {
   background-image: linear-gradient(45deg, #d04ed6 0%, #d04ed6 55%, #834d9b 90%);
 }
 
+.gradientPiglet {
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #ee9ca7 0%, #ee9ca7 55%, #ffdde1 90%);
+}
+
 .gradientSuperman {
   background-color: #002878;
   background-image: linear-gradient(45deg, #0099F7 0%, #0099F7 55%, #834d9b 90%);
@@ -160,6 +168,12 @@ a:hover {
   background-image: linear-gradient(45deg, #D39D38 0%, #D39D38 55%, #4DA0B0 90%);
 }
 
+.gradientVirginAmerica {
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #7b4397 0%, #7b4397 55%, #dc2430 90%);
+}
+
+
 .gradientMinnesotaVikings{
   background-color: #002878;
   background-image: linear-gradient(45deg, #5614B0 0%, #5614B0 55%, #DBD65C 90%);
@@ -193,6 +207,11 @@ $PaleWood2: #d6ae7b;
 .gradientPaleWood{
   background-color: #002878;
   background-image: linear-gradient(45deg, $PaleWood1 0%, $PaleWood1 55%, $PaleWood2 90%);
+}
+
+.gradientUkraine{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #004FF9 0%, #004FF9 55%, #FFF94C 90%);
 }
 
 $Purplin1: #6a3093;
@@ -267,6 +286,18 @@ $Netflix2: #1F1C18;
   background-image: linear-gradient(45deg, $Netflix1 0%, $Netflix1 55%, $Netflix2 90%);
 }
 
+$CuriosityBlue1: #525252;
+$CuriosityBlue2: #3d72b4;
+.gradientCuriosityBlue{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $CuriosityBlue1 0%, $CuriosityBlue1 55%, $CuriosityBlue2 90%);
+}
+
+.gradientGreenToDark{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #6A9113 0%, #6A9113 55%, #141517 90%);
+}
+
 $LittleLeaf1: #76b852;
 $LittleLeaf2: #8DC26F;
 .gradientLittleLeaf{
@@ -309,6 +340,11 @@ $Passion2: #e35d5b;
   background-image: linear-gradient(45deg, $Passion1 0%, $Passion1 55%, $Passion2 90%);
 }
 
+.gradientFreshTurboscent{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #F1F2B5 0%, #F1F2B5 55%, #135058 90%);
+}
+
 $Lizard1: #304352;
 $Lizard2: #d7d2cc;
 .gradientLizard{
@@ -343,4 +379,93 @@ $Sage2: #757519;
 .gradientSage{
   background-color: #002878;
   background-image: linear-gradient(45deg, $Sage1 0%, $Sage1 55%, $Sage2 90%);
+}
+
+$DarkKnight1: #BA8B02;
+$DarkKnight2: #181818;
+.gradientDarkKnight{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $DarkKnight1 0%, $DarkKnight1 55%, $DarkKnight2 90%);
+}
+.gradientDarkKnight2{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $DarkKnight2 0%, $DarkKnight2 55%, $DarkKnight1 90%);
+}
+
+$KoKoCaramel1: #D1913C;
+$KoKoCaramel2: #FFD194;
+.gradientKoKoCaramel{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $KoKoCaramel1 0%, $KoKoCaramel1 55%, $KoKoCaramel2 90%);
+}
+.gradientKoKoCaramel2{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $KoKoCaramel2 0%, $KoKoCaramel2 55%, $KoKoCaramel1 90%);
+}
+
+.gradientPortrait{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #8e9eab 0%, #8e9eab 55%, #eef2f3 90%);
+}
+
+.gradientTurquoiseFlow{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #136a8a 0%, #136a8a 55%, #267871 90%);
+}
+
+.gradientVine{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #00bf8f 0%, #00bf8f 55%, #001510 90%);
+}
+
+.gradientFlickr{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #ff0084 0%, #ff0084 55%, #33001b 90%);
+}
+
+.gradientInstagram{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #833ab4 0%, #fd1d1d 55%, #fcb045 90%);
+}
+
+.gradientAtlas{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #FEAC5E 0%, #C779D0 55%, #4bc0c8 90%);
+}
+
+.gradientTwitch{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #6441A5 0%, #6441A5 55%, #2a0845 90%);
+}
+
+.gradientPastelSun{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #ffb347 0%, #ffb347 55%, #ffcc33 90%);
+}
+
+.gradientEndlessRiver{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #43cea2 0%, #43cea2 55%, #185a9d 90%);
+}
+
+.gradientPreDawn{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #FFA17F 0%, #FFA17F 55%, #00223E 90%);
+}
+
+
+$Bliss1: #360033;
+$Bliss2: #0b8793;
+.gradientBliss{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $Bliss1 0%, $Bliss1 55%, $Bliss2 90%);
+}
+.gradientBliss2{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, $Bliss2 0%, $Bliss2 55%, $Bliss1 90%);
+}
+
+.gradientMiceElf{
+  background-color: #002878;
+  background-image: linear-gradient(45deg, #948E99 0%, #948E99 55%, #2E1437 90%);
 }
