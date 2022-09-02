@@ -265,6 +265,34 @@ function buttonClicked(clicked_id) {
         x.innerHTML = "MiceElf has been clicked";
         snackbar.style.backgroundImage = 'linear-gradient(45deg, #948E99 0%, #948E99 55%, #2E1437 90%)';
         break;
+      case 'Hersheys':
+        x.innerHTML = "Hersheys has been clicked";
+        snackbar.style.backgroundImage = 'linear-gradient(45deg, #1e130c 0%, #1e130c 55%, #9a8478 90%)';
+        break;
+      case 'CrazyOrange':
+        x.innerHTML = "CrazyOrange has been clicked";
+        snackbar.style.backgroundImage = 'linear-gradient(45deg, #D38312 0%, #D38312 55%, #A83279 90%)';
+        break;
+      case 'BetweenClouds':
+        x.innerHTML = "BetweenClouds has been clicked";
+        snackbar.style.backgroundImage = 'linear-gradient(45deg, #73C8A9 0%, #73C8A9 55%, #373B44 90%)';
+        break;
+      case 'MetallicToad':
+        x.innerHTML = "MetallicToad has been clicked";
+        snackbar.style.backgroundImage = 'linear-gradient(45deg, #abbaab 0%, #abbaab 55%, #ffffff 90%)';
+        break;
+      case 'Martini':
+        x.innerHTML = "Martini has been clicked";
+        snackbar.style.backgroundImage = 'linear-gradient(45deg, #fdfc47 0%, #fdfc47 55%, #24fe41 90%)';
+        break;
+      case 'Friday':
+        x.innerHTML = "Friday has been clicked";
+        snackbar.style.backgroundImage = 'linear-gradient(45deg, #83A4D4 0%, #83A4D4 55%, #B6FBFF 90%)';
+        break;
+      case 'Friday2':
+        x.innerHTML = "Friday2 has been clicked";
+        snackbar.style.backgroundImage = 'linear-gradient(45deg, #B6FBFF 0%, #B6FBFF 55%, #83A4D4 90%)';
+        break;
       default:
       x.innerHTML = "Example has been clicked";
 }
