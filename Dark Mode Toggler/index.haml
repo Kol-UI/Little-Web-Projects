@@ -1,0 +1,20 @@
+%h1 Hello Darkness, My Old Friend
+%p
+  %strong WARNING!
+  This demo is using
+  %code @container style()
+  and
+  %code :has
+  to update preferred color-scheme.
+  %br>/
+  Only in latest Chrome.
+%fieldset#colorScheme.toggle-group
+  %label
+    %input#color-scheme-light{"data-sr" => "", name: "color-scheme", type: "radio", value: "0"}/
+    Light
+  %label
+    %input{checked: "checked", "data-sr" => "", name: "color-scheme", type: "radio", value: "auto"}/
+    Auto
+  %label
+    %input#color-scheme-dark{"data-sr" => "", name: "color-scheme", type: "radio", value: "1"}/
+    Dark

@@ -1,0 +1,35 @@
+/* System Colors */
+.AccentColor { background-color: AccentColor; }
+.AccentColorText { background-color: AccentColorText; }
+.ActiveText { background-color: ActiveText; }
+.ButtonBorder { background-color: ButtonBorder; }
+.ButtonFace { background-color: ButtonFace; }
+.ButtonText { background-color: ButtonText; }
+.Canvas { background-color: Canvas; }
+.CanvasText { background-color: CanvasText; }
+.Field { background-color: Field; }
+.FieldText { background-color: FieldText; }
+.GrayText { background-color: GrayText; }
+.Highlight { background-color: Highlight; }
+.HighlightText { background-color: HighlightText; }
+.LinkText { background-color: LinkText; }
+.Mark { background-color: Mark; }
+.MarkText { background-color: MarkText; }
+.VisitedText { background-color: VisitedText; }
+
+body {
+  background-color: Canvas;
+  color: CanvasText;
+  color-scheme: light dark;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+dl {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+dd { color: GrayText; font-size: small; }
+dd, dt {
+  border-block-end: 1px solid GrayText;
+  padding: 1ch;
+}
+dt { color: transparent; }
